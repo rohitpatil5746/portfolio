@@ -1,10 +1,10 @@
 import React, { useRef } from "react";
-import img1 from "../assets/skills/01.png";
-import img2 from "../assets/skills/02.png";
-import img3 from "../assets/skills/03.png";
-import img4 from "../assets/skills/04.png";
-import img5 from "../assets/skills/05.png";
-import img6 from "../assets/skills/06.png";
+import img1 from "../assets/Skills/01.png";
+import img2 from "../assets/Skills/02.png";
+import img3 from "../assets/Skills/03.png";
+import img4 from "../assets/Skills/04.png";
+import img5 from "../assets/Skills/05.png";
+import img6 from "../assets/Skills/06.png";
 import { motion } from "motion/react";
 
 const Skills = () => {
