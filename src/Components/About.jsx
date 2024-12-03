@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../assets/me/me.jpg";
+import me from "../assets/me/Me.jpg";
 import Rohit_Patil_Cv from "../assets/me/rohitpatilCV.pdf";
 
 export default function About() {
