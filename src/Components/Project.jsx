@@ -10,18 +10,21 @@ export default function Project() {
       image: nike,
       heading: "Nike Landing Page",
       info: "Nike landing page where I can use React and Tailwind CSS to make a stylish website. In this, I can add a map and forms that store user data in localStorage. I also use Router to render to another page without reloading the page.",
+      link: "#",
     },
     {
       id: "2",
       image: ID,
       heading: "Interior Design",
       info: "It is a website that showcases interior designs created by designers. It also includes offers and promotions for clients to explore various design options.",
+      link: "#",
     },
     {
       id: "3",
       image: foodDevlivery,
       heading: "Burger Delight E-Commerce",
       info: "Created a fully responsive e-commerce website featuring a dynamic burger cart. Used Redux Toolkit for real-time cart updates and Tailwind CSS for sleek styling, ensuring a seamless user experience.",
+      link: "https://food-delivery-roan-ten.vercel.app/",
     },
   ]);
 
@@ -33,7 +36,8 @@ export default function Project() {
           return (
             <div
               key={e.id}
-              className="w-full  md:w-1/2 border border-black p-5 rounded-lg shadow-lg"
+              className="w-full cursor-pointer  md:w-1/2 border border-black p-5 rounded-lg shadow-lg"
+              onClick={() => window.open(e.link)}
             >
               <img
                 src={e.image}
