@@ -55,12 +55,12 @@ const Navbar = ({ skillScroll, projectsScroll, aboutScroll }) => {
         </div>
         <div className="blocktext">
           <div className="bounding pl-24 sm:pl-20 md:pl-28 xl:pl-44  text-5xl sm:text-7xl md:9xl lg:text-[20vh] sm:font-extrabold">
-            <h1 class="boundingelem" id="secondh1">
+            <h1 className="boundingelem" id="secondh1">
               Devloper
             </h1>
           </div>
           <div className="bounding text-xs pt-2 sm:text-lg md:text-2xl lg:text-5xl pl-56 sm:pl-80 md:pl-[49srem] lg:pl-[38rem] w-fit">
-            <h1 class="boundingelem h1Small">Based in Surat</h1>
+            <h1 className="boundingelem h1Small">Based in Surat</h1>
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@ const Navbar = ({ skillScroll, projectsScroll, aboutScroll }) => {
             direction="left"
             scrollamount="25"
             behavior="slide"
-            class="boundingelem"
+            className="boundingelem"
           >
             available for freelance
           </h1>
@@ -80,7 +80,7 @@ const Navbar = ({ skillScroll, projectsScroll, aboutScroll }) => {
             direction="left"
             scrollamount="30"
             behavior="slide"
-            class="boundingelem"
+            className="boundingelem"
           >
             work from may '23
           </h1>
@@ -89,10 +89,10 @@ const Navbar = ({ skillScroll, projectsScroll, aboutScroll }) => {
       <div id="herofooter " className="flex justify-around pt-6 ">
         <a href="# " className="lg:text-2xl md:text-xl text-xs pl-2 ">
           I am a fresher seeking new opportunities
-          <i class="ri-arrow-right-up-line"></i>{" "}
+          <i className="ri-arrow-right-up-line"></i>{" "}
         </a>
         <a href="#" className="lg:text-2xl md:text-xl text-xs pl-2">
-          React Enthusiast<i class="ri-arrow-right-up-line"></i>
+          React Enthusiast<i className="ri-arrow-right-up-line"></i>
         </a>
         <div id="iconset" className="flex gap-2 fixed right-2   ">
           <div
