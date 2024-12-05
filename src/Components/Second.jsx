@@ -9,7 +9,7 @@ import {
 } from "@material-tailwind/react";
 import { ChevronDown } from "lucide-react";
 
-function Second({ aboutScroll, projectsScroll }) {
+function Second({ aboutScroll, projectsScroll, skillScroll }) {
   return (
     <div
       id="second "
@@ -20,7 +20,7 @@ function Second({ aboutScroll, projectsScroll }) {
         <h1 className=" flex  text-3xl sm:text-3xl md:text-7xl  lg:text-6xl">
           Skills{" "}
           <ChevronDown
-            onClick={() => projectsScroll()}
+            onClick={() => skillScroll()}
             className="cursor-pointer"
           />
         </h1>

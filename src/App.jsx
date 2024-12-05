@@ -1,6 +1,6 @@
 import "./App.css";
 
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import Navbar from "./Components/Navbar";
 import Second from "./Components/Second";
 import About from "./Components/About";

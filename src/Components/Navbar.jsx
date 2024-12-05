@@ -51,15 +51,15 @@ const Navbar = ({ skillScroll, projectsScroll, aboutScroll }) => {
 
       <div id="heading" className="py-24 w-[100vw]">
         <div className="bounding pl-12  text-5xl sm:text-7xl md:9xl lg:text-[20vh] sm:font-extrabold">
-          <h1 className="boundingelem">FrontEnd</h1>
+          <h1 className="boundingelem text-gray-500">FrontEnd</h1>
         </div>
         <div className="blocktext">
           <div className="bounding pl-24 sm:pl-20 md:pl-28 xl:pl-44  text-5xl sm:text-7xl md:9xl lg:text-[20vh] sm:font-extrabold">
-            <h1 className="boundingelem" id="secondh1">
+            <h1 className="boundingelem text-gray-500" id="secondh1">
               Devloper
             </h1>
           </div>
-          <div className="bounding text-xs pt-2 sm:text-lg md:text-2xl lg:text-5xl pl-56 sm:pl-80 md:pl-[49srem] lg:pl-[38rem] w-fit">
+          <div className="bounding text-xs pt-2 sm:text-lg md:text-2xl lg:text-4xl pl-56 sm:pl-80 md:pl-[49srem] lg:pl-[38rem] w-fit">
             <h1 className="boundingelem h1Small">Based in Surat</h1>
           </div>
         </div>
@@ -72,7 +72,7 @@ const Navbar = ({ skillScroll, projectsScroll, aboutScroll }) => {
             behavior="slide"
             className="boundingelem"
           >
-            available for freelance
+            available for FullTime
           </h1>
         </div>
         <div className="bounding text-xl sm:text-2xl lg:text-3xl ">
