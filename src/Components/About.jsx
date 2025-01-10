@@ -40,11 +40,12 @@ export default function About() {
             let's talk
           </a>
           <a
+            title="Download"
             download="Rohit_Patil_Cv"
             className="hover:bg-white hover:text-black border rounded-full p-2"
             href={Rohit_Patil_Cv}
           >
-            Download CV
+            Get Resume
           </a>
         </div>
       </div>
