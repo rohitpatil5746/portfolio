@@ -42,7 +42,7 @@ export default function About() {
           <a
             title="Download"
             download="Rohit_Patil_Cv"
-            className="hover:bg-white hover:text-black border rounded-full p-2"
+            className="hover:bg-white hover:text-black border rounded-full p-2 "
             href={Rohit_Patil_Cv}
           >
             Get Resume
